@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Najlepsze Cheaty do Roblox</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800;900&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            background: linear-gradient(135deg, #6e45e2, #88d3ce);
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            overflow: hidden;
+        }
+        
+        .widget {
+            width: 320px;
+            height: 180px;
+            background: rgba(255, 255, 255, 0.15);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 20px;
+            position: relative;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        .content {
+            position: relative;
+            z-index: 2;
+            text-align: center;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        h1 {
+            color: white;
+            font-size: 20px;
+            font-weight: 800;
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+            line-height: 1.2;
+        }
+        
+        .discord-btn {
+            background: #7289da;
+            color: white;
+            border: none;
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            margin-top: 10px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+            width: fit-content;
+            align-self: center;
+        }
+        
+        .discord-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+            background: #5a73c4;
+        }
+        
+        .features {
+            display: flex;
+            justify-content: center;
+            gap: 8px;
+            margin-top: 10px;
+            flex-wrap: wrap;
+        }
+        
+        .feature {
+            background: rgba(255, 255, 255, 0.25);
+            padding: 4px 10px;
+            border-radius: 15px;
+            font-size: 10px;
+            color: white;
+            backdrop-filter: blur(5px);
+        }
+        
+        .logo {
+            font-size: 30px;
+            margin-bottom: 8px;
+            animation: pulse 2s infinite;
+        }
+        
+        /* Animacje */
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-5px);
+            }
+        }
+        
+        @keyframes pulse {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(1.1);
+            }
+        }
+        
+        /* Elementy dekoracyjne */
+        .decoration {
+            position: absolute;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            animation: float 6s ease-in-out infinite;
+        }
+        
+        .decoration:nth-child(1) {
+            width: 80px;
+            height: 80px;
+            top: -30px;
+            left: -30px;
+            animation-delay: 0s;
+        }
+        
+        .decoration:nth-child(2) {
+            width: 60px;
+            height: 60px;
+            bottom: -20px;
+            right: -20px;
+            animation-delay: 1s;
+        }
+        
+        .decoration:nth-child(3) {
+            width: 40px;
+            height: 40px;
+            top: 50%;
+            right: -20px;
+            animation-delay: 2s;
+        }
+        
+        .highlight {
+            color: #ffdd00;
+            text-shadow: 0 0 10px rgba(255, 221, 0, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <div class="widget">
+        <div class="decoration"></div>
+        <div class="decoration"></div>
+        <div class="decoration"></div>
+        
+        <div class="content">
+            <div class="logo">🎮</div>
+            <h1><span class="highlight">NAJLEPSZE</span> CHEATY DO ROBLOX</h1>
+            <div class="features">
+                <div class="feature">Aimbot</div>
+                <div class="feature">ESP</div>
+                <div class="feature">Fly Hack</div>
+                <div class="feature">God Mode</div>
+            </div>
+            <a href="#" class="discord-btn">DOŁĄCZ NA DISCORD</a>
+        </div>
+    </div>
+
+    <script>
+        // Prosta animacja dla przycisku
+        document.querySelector('.discord-btn').addEventListener('mouseover', function() {
+            this.style.transform = 'translateY(-2px)';
+        });
+        
+        document.querySelector('.discord-btn').addEventListener('mouseout', function() {
+            this.style.transform = 'translateY(0)';
+        });
+    </script>
+</body>
+</html>
